@@ -2,8 +2,12 @@
 <?php get_header(); ?>
 
 	<div id="primary" class="site-content">
+		<h1>
+			<?php echo get_the_title(); ?>
+		</h1>
 		<div id="launch" role="main">
-		    <p id="left">hotel 1</p><p id="right"> hotel 2</p>
+			<!-- PRINT CONTENT OF POST HERE -->
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

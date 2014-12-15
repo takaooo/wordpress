@@ -11,7 +11,11 @@
 	</div><!-- #content -->    
     
     <div id="footer">
-        <h1>FOOTER</h1>
+        <ul>
+            <li>legal</li>
+            <li><?php wp_loginout(); ?></li>
+            <li>careers</li> 
+        </ul>
     </div>
 </div><!-- wrapper -->
 <?php wp_footer(); ?>

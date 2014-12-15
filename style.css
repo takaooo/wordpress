@@ -117,6 +117,11 @@ a img {
 	border: 0;
 }
 
+h1{
+	font-style:bold;
+	font-size: 2rem;
+}
+
 /* =Basic structure
 -------------------------------------------------------------- */
 
@@ -136,18 +141,18 @@ body {
 a:link{
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
-}a:visited{
+}
+
+a:visited{
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
 }
+
 a:active{
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
 }
-a:hover{
-	color: rgba(255, 255, 255, 1);
-	text-decoration: none;
-}
+
 .front-page {
 	padding: 10px;
 	font-size:58px;
@@ -158,7 +163,7 @@ a:hover{
  border-radius: 5px;
 }
 
-.front-page:hover {
+.front-page:hover, a:hover{
 	color: rgba(255,255,255,1);
 }
 
@@ -187,6 +192,49 @@ a:hover{
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
+#primary{
+	float:right;
+	background-color: rgb(255,255,255);
+	width: 25%;
+	text-align: center;
+	margin:0;
+}
+
+#sidebar{
+	width:20%;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 100%;
+	font-style:bold;
+	font-size:2rem;
+}
+
+#sidebar h1{
+	font-size:28px;
+}
+
+#footer{
+	position: absolute;
+	bottom:0;
+ width:100%;
+ height:60px;   /* Height of the footer */
+ background-color: rgba(2,50,72,0.95);
+}
+
+#footer li {
+	display: inline;
+	padding: 20px;
+	font-size:16px;
+	color: white;
+	font-family: times;
+}
+
+#footer ul{
+	margin-top:22px;
+	margin-left:20%;
+}
 /*#wrapper { display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto; }
 #header { border: 2px #a2a2a2 solid; background-color: #1C29E5;}
 #content { width: 75%; border: 2px #a2a2a2 solid; float: left;}

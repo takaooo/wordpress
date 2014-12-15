@@ -1,18 +1,12 @@
 <div id="sidebar">
-<h2 ><?php _e('Categories'); ?></h2>
-<ul >
-<?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?>
-</ul>
-<h2 ><?php _e('Archives'); ?></h2>
-<ul >
-<?php wp_get_archives('type=monthly'); ?>
-</ul>
-<aside id="meta" class="widget">
-				<h1 class="widget-title"><?php _e( 'Meta', 'my-simone' ); ?></h1>
-				<ul>
-					<?php wp_register(); ?>
-					<li><?php wp_loginout(); ?></li>
-					<?php wp_meta(); ?>
-				</ul>
-			</aside>
+	<h1 class="site-title front"><?php bloginfo( 'name' ); ?></h1>
+	<ul>
+		<li><a href="index.php?p=1" rel="hotel1">home</a></li>
+		<li><a href="index.php?p=9" rel="hotel1">rooms</li>
+		<li><a href="index.php?p=13" rel="hotel1">restaurant</li>
+		<li><a href="index.php?p=15" rel="hotel1">gallery</li>
+		<li><a href="index.php?p=17" rel="hotel1">location</li>
+		<li><a href="index.php?p=18" rel="hotel1">book</li>
+	</ul>
+	
 </div>

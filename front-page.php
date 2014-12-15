@@ -27,10 +27,10 @@
 
 	</header>
 
-	<div id="primary" class="site-content">
+	<div id="front-primary" class="site-content">
 		<div id="front-page" role="main">
-		    <p id="left" class = "front-page"><a href="/page.php" rel="home">hotel 1</p>
-		    <p id="right" class = "front-page"><a href="/page.php" rel="home">hotel 2</p>
+		    <p id="left" class = "front-page"><a href="index.php?p=1" rel="hotel1">hotel 1</p>
+		    <p id="right" class = "front-page"><a href="index.php?p=2" rel="hotel2">hotel 2</p>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

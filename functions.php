@@ -46,7 +46,7 @@ function kara_g_setup() {
 	//) );
 	
 	// hide wordpress admin bar at top of screen
-	add_filter('show_admin_bar', '__return_false');
+//	add_filter('show_admin_bar', '__return_false');
 
 	// Enable support for Post Formats.
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
